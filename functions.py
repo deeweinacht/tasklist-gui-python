@@ -1,7 +1,8 @@
+import pathlib
+import os
 """
 Necessary functions for Task List
 """
-import pathlib
 
 TASKS_FILEPATH = pathlib.Path('data', 'task list.txt')
 
@@ -24,3 +25,9 @@ def display_tasks(tasks_to_display):
     for i, task in enumerate(tasks_to_display):
         task = task.strip('\n')
         print(f'\t{i + 1}. {task}')
+
+
+def initialize_task_list():
+    if not os.path.exists(TASKS_FILEPATH):
+        with open(TASKS_FILEPATH, 'w') as file:
+            pass
