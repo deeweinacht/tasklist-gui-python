@@ -1,3 +1,6 @@
-Read a book
-Take a walk
+Read a book today
+Take a walk twice
+Go home
 Eat lunch
+Fix my code
+Take a walk

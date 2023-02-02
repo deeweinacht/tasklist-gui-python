@@ -1,8 +1,9 @@
 """
 Necessary functions for Task List
 """
+import pathlib
 
-TASKS_FILEPATH = 'data/task list.txt'
+TASKS_FILEPATH = pathlib.Path('data', 'task list.txt')
 
 
 def get_tasks():
