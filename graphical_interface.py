@@ -1,3 +1,7 @@
+"""
+This file implements a graphical interface for a task list.
+"""
+
 import functions
 import PySimpleGUI as sg
 

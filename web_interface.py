@@ -1,3 +1,7 @@
+"""
+This implements a streamlit web application for the task list.
+"""
+
 import streamlit as st
 import functions
 
@@ -5,6 +9,7 @@ task_list = functions.get_tasks()
 
 
 def add_task():
+    """Read the text input from the web page and add it to the task list"""
     new_task = st.session_state['task_input']
     task_list.append(new_task + '\n')
     functions.save_tasks(task_list)
