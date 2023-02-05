@@ -1,2 +1,5 @@
 /venv/
 .idea
+/graphical_interface.spec
+/gui.spec
+/build/
