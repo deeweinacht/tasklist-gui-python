@@ -1,6 +1,5 @@
 import functions
 import PySimpleGUI as sg
-import os
 
 functions.initialize_task_list()
 

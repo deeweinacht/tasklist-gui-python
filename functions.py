@@ -29,5 +29,4 @@ def display_tasks(tasks_to_display):
 
 def initialize_task_list():
     if not os.path.exists(TASKS_FILEPATH):
-        with open(TASKS_FILEPATH, 'w') as file:
-            pass
+        open(TASKS_FILEPATH, 'w')

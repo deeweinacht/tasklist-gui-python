@@ -15,7 +15,6 @@ st.subheader('Use this page to track your daily tasks')
 st.write('Your tasks:')
 
 for index, task in enumerate(task_list):
-    print(task)
     checkbox = st.checkbox(task, key=task)
     if checkbox:
         task_list.pop(index)
